@@ -10,7 +10,7 @@ import UIKit
 
 class VideoStreamManager: NSObject, ObservableObject, AVCaptureVideoDataOutputSampleBufferDelegate {
     private var videoOutput: AVCaptureVideoDataOutput?
-    private var sasUrl = "https://stitdbextdevuks.blob.core.windows.net/dbextqamt/test-video-stream-dev-ios-v2.mp4?sv=2025-01-05&st=2024-12-04T10%3A14%3A07Z&se=2024-12-08T14%3A14%3A07Z&sr=b&sp=acw&sig=fE7dZPYCsYDYeJjltO5Z5xF1A42l9L3uuzra4k9qmqA%3D"
+    private var sasUrl = "https://<storage_acount>.blob.core.windows.net/<container_name>/<blob_name>?<sas_token>"
     private let sessionQueue = DispatchQueue(label: "videoStreamSessionQueue")
     private let uploadQueue = DispatchQueue(label: "videoUploadQueue")
     private var isStreaming = false
