@@ -1,7 +1,7 @@
 # Real-Time Video Streaming to Azure Blob Storage
 This project enables real-time video streaming from an iOS device to Azure Blob Storage using Swift. The application captures video using the device camera, processes frames in real-time, and streams them to an append blob in Azure Blob Storage without intermediate file storage.
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/61123014-6c0e-40f8-beb3-88a39d6845f1" alt="App Screenshot" width="200" height="400" />
+    <img src="https://github.com/user-attachments/assets/8d937689-cfa3-4ad3-b339-8ea9d8a89f53" alt="App Screenshot" width="200" height="400" />
 </div>
 
 ## Features
